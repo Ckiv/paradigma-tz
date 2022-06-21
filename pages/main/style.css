@@ -454,7 +454,7 @@ a {
 .benefits {
     display: none;
 }
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 425px) {
     .mobile-display{
         display: none;
     }
@@ -536,7 +536,7 @@ a {
         max-height: 600px;
         background-image: url("../../assets/images/mobile-bg.jpg");
         background-repeat: no-repeat;
-        margin: 0 auto;background-size: 320px;
+        margin: 0 auto;background-size: 100%;
     }
     .mobile-header {
         display: flex;
@@ -687,7 +687,7 @@ a {
     .aside-inner {
         display: flex;width: 225px;
         min-height: 367px;
-        margin: 67px auto 0 auto;/* margin-right: 0; */
+        margin: 67px auto 0 auto;margin-right: 0;
         background: #fff;
         box-shadow: 0px 0px 75px rgba(0, 0, 0, 0.03);
         border-radius: 20px;
@@ -696,7 +696,7 @@ a {
         position: absolute;
         z-index: 10;
         top: 415px;
-        left: 50px;transition: bottom .60s;
+        left: 15%;transition: bottom .60s;
     }
     .more-show {
         transition: bottom .60s;
