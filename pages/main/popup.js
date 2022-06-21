@@ -1,5 +1,5 @@
 const POPUP = document.querySelector(".popup");
-const OPENPOPUP = document.querySelector(".header-bottom-phone__button");
+const OPENPOPUP = document.querySelector(".popup-open");
 const CLOSEPOPUP = document.querySelector(".close-popup");
 
 OPENPOPUP.addEventListener("click", openPopup);

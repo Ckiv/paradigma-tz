@@ -3,18 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Академия кровли</title>
-    <link rel="stylesheet" href="../normalize.css">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div class="container">
+    <div class="mobile-header desktop-display">
+        <div class="header-bottom-logo">
+            <img src="../../assets/images/logo2.png" alt="logo" class="header-bottom-logo__image">
+        </div>
+        <div class="header-bottom-phone">
+            <p class="header-bottom-phone__text font-text font-size-12 mfont-size-7 font-weight-400"><span class="font-weight-700">Пн-Пт</span> 9:00 - 18:00, <span class="font-weight-700">Сб</span> 10:00 - 18:00.</p>
+            <p class="header-bottom-phone__number font-text font-size-22 mfont-size-14 font-weight-600">8 (800) 222-54-60</p>
+            <p class="header-bottom-phone__button popup-open font-text font-size-12 mfont-size-10 font-weight-600 font-color-green">Позвоните мне</p>
+        </div>
+        <img src="../../assets/images/mobile-menu.png" alt="mobile menu" class="trigger">
+    </div>
     <header class="header">
         <div class="header-top">
             <nav class="menu">
-                <ul class="menu-list font-text font-size-14 font-weight-500 font-uppercase">
+                <ul class="menu-list font-text font-size-14 mfont-size-10 font-weight-500 font-uppercase">
                     <li class="menu-list__item"><a href="#" class="menu-list__link"><img src="../../assets/icons/home.svg" alt="home image" class="menu__image"></a></li>
                     <li class="menu-list__item"><a href="#" class="menu-list__link">каталог</a></li>
                     <li class="menu-list__item"><a href="#" class="menu-list__link">преимущества</a></li>
@@ -22,85 +34,87 @@
                     <li class="menu-list__item"><a href="#" class="menu-list__link">монтаж</a></li>
                     <li class="menu-list__item"><a href="#" class="menu-list__link">отзывы</a></li>
                     <li class="menu-list__item"><a href="#" class="menu-list__link">ответы на вопросы</a></li>
-                    <li class="menu-list__item"><a href="#" class="menu-list__link">контакты</a></li>
+                    <li class="menu-list__item mobile-display"><a href="#" class="menu-list__link">контакты</a></li>
                 </ul>
             </nav>
         </div>
         <div class="header-bottom">
             <div class="header-bottom-description">
-                <p class="header-bottom-description__text font-text font-size-12 font-weight-400"><span class="font-weight-600">Кровельные и фасадные материалы</span> в Тюмени и области.</p>
-                <p class="header-bottom-description__text-bottom font-text font-size-12 font-weight-400">Профессиональный монтаж с 2010 года.</p>
+                <p class="header-bottom-description__text font-text font-size-12 mfont-size-8 font-weight-400"><span class="font-weight-600">Кровельные и фасадные материалы</span> в Тюмени и области.</p>
+                <p class="header-bottom-description__text-bottom font-text font-size-12 mfont-size-8 font-weight-400">Профессиональный монтаж с 2010 года.</p>
             </div>
             <div class="header-bottom-price">
                 <img src="../../assets/icons/pdf.png" alt="pdf icon" class="header-bottom-price__icon">
-                <a href="#" class="header-bottom-price__text font-text font-size-12 font-weight-600">Скачать прайс-каталог</a>
+                <a href="#" class="header-bottom-price__text font-text font-size-12 mfont-size-10 font-weight-600">Скачать прайс-каталог</a>
             </div>
-            <div class="header-bottom-logo">
+            <div class="header-bottom-logo mobile-display">
                 <img src="../../assets/images/logo2.png" alt="logo" class="header-bottom-logo__image">
             </div>
             <div class="header-bottom-social">
-                <div class="header-bottom-social-text font-text font-size-12 font-weight-400">
+                <div class="header-bottom-social-text font-text font-size-12 mfont-size-8 font-weight-400">
                     <div class="green-dot"></div>
                     <p class="header-bottom-social__item ">Отвечаем <span class="font-weight-700">онлайн</span></p>
                 </div>
                 <ul class="social-menu-list">
-                    <li class="social-menu-list__item"><a href="#" class="social-menu-list__link"><img src="../../assets/icons/viber.svg" alt="viber" class="social-menu-list__image"></a></li>
-                    <li class="social-menu-list__item"><a href="#" class="social-menu-list__link"><img src="../../assets/icons/whatsapp.svg" alt="whatsapp" class="social-menu-list__image"></a></li>
-                    <li class="social-menu-list__item"><a href="#" class="social-menu-list__link"><img src="../../assets/icons/telegramm.svg" alt="telegramm" class="social-menu-list__image"></a></li>
+                    <li class="social-menu-list__item"><a href="https://chats.viber.com/onliner" target="_blank" class="social-menu-list__link"><img src="../../assets/icons/viber.svg" alt="viber" class="social-menu-list__image"></a></li>
+                    <li class="social-menu-list__item"><a href="https://web.whatsapp.com" target="_blank" class="social-menu-list__link"><img src="../../assets/icons/whatsapp.svg" alt="whatsapp" class="social-menu-list__image"></a></li>
+                    <li class="social-menu-list__item"><a href="https://web.telegram.org/z/" target="_blank" class="social-menu-list__link"><img src="../../assets/icons/telegramm.svg" alt="telegramm" class="social-menu-list__image"></a></li>
                 </ul>
             </div>
-            <div class="header-bottom-phone">
+            <div class="header-bottom-phone mobile-display">
                 <p class="header-bottom-phone__text font-text font-size-12 font-weight-400"><span class="font-weight-700">Пн-Пт</span> 9:00 - 18:00, <span class="font-weight-700">Сб</span> 10:00 - 18:00.</p>
                 <p class="header-bottom-phone__number font-text font-size-22 font-weight-600">8 (800) 222-54-60</p>
-                <p class="header-bottom-phone__button font-text font-size-12 font-weight-600 font-color-green">Позвоните мне</p>
+                <p class="header-bottom-phone__button popup-open font-text font-size-12 font-weight-600 font-color-green">Позвоните мне</p>
             </div>
         </div>
     </header>
     <main class="main-content">
         <aside class="aside-inner">
-            <ul class="aside-list font-text font-size-12 font-weight-400">
+            <p class="benefits font-text mfont-size-8 font-weight-400 font-color-gray">Нажмите на плюсик, чтобы увидеть все преимущества работы с нами</p>
+            <ul class="aside-list font-text font-size-12 mfont-size-10 font-weight-400">
                 <li class="aside-item"><span class="font-weight-700">Гарантия от 50 лет</span> на материалы и 5 лет на монтаж<hr class="aside-item-line"></li>
                 <li class="aside-item"><span class="font-weight-700">Замер, монтажный проект</span> и еще 4 услуги бесплатно<hr class="aside-item-line"></li>
                 <li class="aside-item"><span class="font-weight-700">Сметы точны</span> до копейки<hr class="aside-item-line"></li>
                 <li class="aside-item"><span class="font-weight-700">Поэтапная оплата,</span> кредит или рассрочка<hr class="aside-item-line"></li>
                 <li class="aside-item"><span class="font-weight-700">Наши крыши в каждом поселке</span> и дачном сообществе региона<hr class="aside-item-line"></li>
             </ul>
+            <div class="more desktop-display"><img src="../../assets/images/plus.png" alt="" class="more-image"></div>
         </aside>
         <article class="article">
             <div class="article-description">
-                <p class="article-description__text font-text font-size-55 font-weight-300">Продажа <span class="font-weight-600">кровельных материалов</span> в Тюмени и Тюменской области</p>
-                <p class="article-description__text font-text font-size-32 font-weight-400"><img src="../../assets/icons/circle.svg" alt="circle" class="article-description__image">и монтаж под ключ</p>
+                <p class="article-description__text font-text font-size-55 mfont-size-18 font-weight-300">Продажа <span class="font-weight-600">кровельных материалов</span> в Тюмени и Тюменской области</p>
+                <p class="article-description__text font-text font-size-32 mfont-size-13 font-weight-400"><img src="../../assets/icons/circle.svg" alt="circle" class="article-description__image">и монтаж под ключ</p>
             </div>
             <div class="article-button">
                 <div class="article-button-one">
-                    <p class="article-green-button__text font-text font-size-14 font-weight-600 font-uppercase font-color-white">рассчитать стоимость материалов и монтажа</p>
+                    <p class="article-green-button__text font-text font-size-14 mfont-size-10 font-weight-600 font-uppercase font-color-white">рассчитать стоимость материалов и монтажа</p>
                     <img src="../../assets/icons/arrow.svg" alt="arrow" class="article-button__image">
                 </div>
                 <div class="article-button-two">
-                    <p class="article-orange-button__text font-text font-size-14 font-weight-600 font-uppercase font-color-white">записаться на просмотр объектов</p>
+                    <p class="article-orange-button__text font-text font-size-14 mfont-size-10 font-weight-600 font-uppercase font-color-white">записаться на просмотр объектов</p>
                     <img src="../../assets/icons/arrow.svg" alt="arrow" class="article-button__image">
                 </div>
             </div>
             <div class="article-prompt">
                 <img src="../../assets/icons/pointer.svg" alt="pointer" class="article-prompt__image">
-                <p class="article-prompt__text font-text font-size-14 font-weight-400"><span class="font-weight-600">Ответьте на несколько вопросов и получите</span> сметную стоимость и 2 подарка за экономию нашего времени</p>
+                <p class="article-prompt__text font-text font-size-14 mfont-size-8 font-weight-400"><span class="font-weight-600">Ответьте на несколько вопросов и получите</span> сметную стоимость и 2 подарка за экономию нашего времени</p>
             </div>
         </article>
     </main>
     <div class="popup">
         <div class="popup-inner">
             <div class="popup-text">
-                <p class="popup-name font-text font-size-30 font-weight-500">Быстро <br/>оставить заявку</p>
-                <p class="popup-description font-text font-size-16 font-weight-400">Введите номер, мы позвоним вам в течение 10 минут в рабочее время</p>
-                <p class="popup-time font-text font-size-12 font-weight-400">Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00</p>
+                <p class="popup-name font-text font-size-30 mfont-size-18 font-weight-500">Быстро <br/>оставить заявку</p>
+                <p class="popup-description font-text font-size-16 mfont-size-10 font-weight-400">Введите номер, мы позвоним вам в течение 10 минут в рабочее время</p>
+                <p class="popup-time font-text font-size-12 mfont-size-8 font-weight-400">Пн–Пт 9:00 - 18:00, Сб 10:00 - 18:00</p>
             </div>
             <form action="" class="popup-form">
-                <p class="popup-form__text font-text font-size-12 font-weight-400">Введите номер телефона</p>
-                <input class="popup-form__phone tel font-text font-size-18 font-weight-400" type="tel" name="phone" placeholder="+7(___)___-__-__">
-                <button class="popup-form__button font-text font-size-16 font-weight-600 font-color-white">Позвоните мне</button>
+                <p class="popup-form__text font-text font-size-12 mfont-size-8 font-weight-400">Введите номер телефона</p>
+                <input class="popup-form__phone tel font-text font-size-18 mfont-size-14 font-weight-400" type="tel" name="phone" placeholder="+7(___)___-__-__">
+                <button class="popup-form__button font-text font-size-16 mfont-size-13 font-weight-600 font-color-white">Позвоните мне</button>
                 <div class="popup-form-label">
                     <input type="checkbox" id="cb1" class="popup-form__chek" checked>
-                    <label for="cb1" class="popup-form__chek-text font-text font-size-12 font-weight-500" >Нажимая кнопку вы соглашаетесь  с условиями <a
+                    <label for="cb1" class="popup-form__chek-text font-text font-size-12 mfont-size-8 font-weight-500" >Нажимая кнопку вы соглашаетесь  с условиями <a
                             href="#" class="popup-form__chek-link font-color-orange">Политики конфиденциальности</a></label>
                 </div>
             </form>
@@ -110,5 +124,7 @@
 </div>
 <script src="maska.js"></script>
 <script src="popup.js"></script>
+<script src="menu.js"></script>
+<script src="more.js"></script>
 </body>
 </html>
