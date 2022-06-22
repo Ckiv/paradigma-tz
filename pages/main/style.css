@@ -537,7 +537,7 @@ a {
         background-image: url("../../assets/images/mobile-bg.jpg");
         background-repeat: no-repeat;
         margin: 0 auto;background-size: 100%;
-    }
+    position: relative;overflow: hidden;}
     .mobile-header {
         display: flex;
         justify-content: space-between;
